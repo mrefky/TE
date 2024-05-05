@@ -10,14 +10,14 @@ microk8s kubectl delete svc --all
 microk8s kubectl delete pvc --all
 
 sleep 1
-cd /home/mrefky/project/mysql
+cd ~/TE/project/mysql
 ./build.sh
-cd /home/mrefky/project/kafka
+cd ~/TE/project/kafka
 ./build.sh
-cd /home/mrefky/project/control
+cd ~/TE/project/control
 ./resetall.sh
-cd /home/mrefky/project/filler
+cd ~/TE/project/filler
 ./build.sh 
-cd /home/mrefky/project/mysql-view
+cd ~/TE/project/mysql-view
 ./build.sh
-#/home/mrefky/project/status.sh
+#~/TE/project/status.sh
