@@ -22,10 +22,11 @@ The connection between the DB and matching engine are required to ensure that th
 # Monitoring
 * Matching Engine 
 
-  Tail the file named /mylogs/matcher.log
+  - Tail the file named /mylogs/matcher.log
 
 * SQl Updater
-  Tail the file named /mylogs/sql.log
+
+  - Tail the file named /mylogs/sql.log
 
 # Generated STS
 ![arch](./sts.jpg?raw=true "Arch")
