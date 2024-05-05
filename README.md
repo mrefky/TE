@@ -10,6 +10,11 @@ The connection between the DB and matching engine are required to ensure that th
 
 ![arch](./arch.jpg?raw=true "Arch")
 
+# Testing
+* stress testing
+* predefined set of orders
+* Using FIx
+
 # Generated STS
 ![arch](./sts.jpg?raw=true "Arch")
 
