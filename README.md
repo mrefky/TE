@@ -9,3 +9,12 @@ The connection between the DB and matching engine are required to ensure that th
 
 
 ![arch](./arch.jpg?raw=true "Arch")
+
+# Generated STS
+![arch](./sts.jpg?raw=true "Arch")
+
+# Generated pods
+
+![arch](./pods.jpg?raw=true "Arch")
+
+
