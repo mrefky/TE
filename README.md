@@ -1,2 +1,2 @@
 # TE
-![Arch](./Arch.jpg?raw=true "Arch")
+![Arch](./arca.jpg?raw=true "Arch")
