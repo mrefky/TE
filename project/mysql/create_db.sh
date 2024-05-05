@@ -46,4 +46,5 @@ From\
 
 
 EOF
-./sec
+cd ~/TE/project/fillsec
+go run .
