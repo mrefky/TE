@@ -19,6 +19,9 @@ The connection between the DB and matching engine are required to ensure that th
     
 * predefined set of orders
 * Using FIx
+# Monitoring
+* Matching Engine
+* SQl Updater
 
 # Generated STS
 ![arch](./sts.jpg?raw=true "Arch")
