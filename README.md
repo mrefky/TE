@@ -14,6 +14,7 @@ The connection between the DB and matching engine are required to ensure that th
 * stress testing
 
     cd ~/TE/project/stress3
+  
     go run .
     
 * predefined set of orders
