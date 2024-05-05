@@ -1,0 +1,51 @@
+{{ define "Index" }}
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Orders</title>
+        <meta charset="UTF-8" />
+<style>
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+</style>
+
+
+    </head>
+    <body>
+        <h1>Orders website</h1> 
+
+    {{ $length := len . }}
+    <h3>Length {{$length}}</h3> 
+
+    <table   width=100%>
+
+     <tr style="background-color:#FF0000">
+        <td>Order_ID</td>
+	<td>Type</td>
+	<td>Seccode</td>
+        <td>Price</td>
+	<td>Remaining</td>
+ 	<td>Quantity</td>
+
+      </tr>
+    {{ range . }}
+      <tr>
+        <td>{{ .Orderid }}</td>
+	<td>{{ .Ordtype }}</td>
+	<td>{{ .Secid }}</td>
+        <td> {{ .Price }} </td>
+	<td> {{ .Remaining }} </td>
+	<td>{{.Quantity}}</td>
+      </tr>
+    {{ end }}
+    </table>
+
+    </body>
+</html>
+{{ end }}

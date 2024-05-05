@@ -1,0 +1,254 @@
+package main
+
+import (
+//	"encoding/csv"
+	"fmt"
+	"log"
+	"os"
+	"bytes"
+	 "io"
+
+	"strconv"
+	"time"
+	"database/sql"
+	_"github.com/go-sql-driver/mysql"
+
+	"github.com/Shopify/sarama"
+	cluster "github.com/bsm/sarama-cluster"
+	//	"github.com/kailashyogeshwar85/slim-orderbook/cmd/slim-orderbook/engine"
+)
+
+type ShoppingRecord struct {
+	ID      string
+	Seccode string
+}
+type Egx struct {
+	Secid     string
+	Seccode   string
+	orderbook OrderBook
+}
+
+
+
+func getorderbook(ex []Egx, seccode string) int {
+	var u int
+	u = 0
+	for i := 0; i < len(ex)-1; i++ {
+		var y Egx = ex[i]
+
+		if y.Seccode == seccode {
+			u = i
+			return i
+		}
+
+	}
+	return u
+}
+func red(){
+logWriter, err := syslog.New(syslog.LOG_SYSLOG, "My Awesome App")
+    if err != nil {
+        log.Fatalln("Unable to set logfile:", err.Error())
+    }
+    // set the log output
+    log.SetOutput(logWriter)
+
+}
+
+
+
+
+
+
+func main() {
+red()
+	fmt.Println("-----------------------------------------")
+	fmt.Println("        EGX new matching Engine 1.0               ")
+	fmt.Println("-----------------------------------------")
+	// create consumer for consuming order
+	var EGX []Egx
+	//var EGX Egx= make("",[] OrderBook,0,300)
+	//records := readCsvFile("./Securities.csv")
+	//shoppingList := createShoppingList(records)
+	db, err := sql.Open("mysql", "root@tcp(192.168.1.52:3306)/test")
+
+	if err != nil {
+		panic(err.Error())
+	}
+	defer db.Close()
+	var s string
+	fmt.Println("Connecting to MySQL Success!")
+	
+	s="select * from  Security"
+	
+	insert, err := db.Query(s)
+	if err != nil {
+		panic(err.Error())
+	}
+	//defer insert.Close()
+	
+	if err != nil {
+		panic(err.Error())
+	}
+	defer insert.Close()
+     var n, m string
+
+	 rows, err := db.Query("select secid,seccode from test.Security")
+	 if err != nil {
+		 log.Fatal(err)
+	 }
+	 defer rows.Close()
+	 var ord OrderBook = OrderBook{}
+	 //Ex := Egx{Secid: n, Seccode: m, orderbook: ord}
+	 for rows.Next() {
+		 err := rows.Scan(&n, &m)
+		 if err != nil {
+			 log.Fatal(err)
+		 }
+		// fmt.Println(n,m)
+		 Ex := Egx{Secid: n, Seccode: m, orderbook: ord}
+		//EX =append(EX,Ex)
+		EGX = append(EGX, Ex)
+	 }
+	 err = rows.Err()
+	 if err != nil {
+		 log.Fatal(err)
+	 }
+	
+fmt.Println("Prepared order books for "+ strconv.Itoa(len(EGX))+" Securities")
+
+
+
+
+	consumer := createConsumer()
+
+	// create producer to send trades and orders data
+	producer := createProducer()
+
+	// create the order book
+	book := OrderBook{
+		Bids: make([]Order, 0, 10000),
+		Asks: make([]Order, 0, 10000),
+	}
+
+	// create a channel to know when done
+	done := make(chan bool)
+
+	// start processing order
+	go func() {
+		for msg := range consumer.Messages() {
+			fmt.Println("_________GOT--", string(msg.Value[:]))
+			var order Order
+			// deserialize the message
+			order.FromJSON(msg.Value)
+			//Kinsert(order)
+			// process the order
+			fmt.Sprintln(order.Seccode)
+			var xyz int=getorderbook(EGX,order.Seccode)
+			if xyz==0 {
+			fmt.Println("Unkown Security; message neglected")	
+			//done <- true
+			//consumer.MarkOffset(msg, "")
+			//return
+			
+			}
+			if xyz !=0{
+			book=EGX[xyz].orderbook
+			fmt.Println("Order book of "+EGX[xyz].Seccode)
+			trades := book.Process(order)
+			
+EGX[xyz].orderbook=book
+			log.Println("Trades length: ", len(trades))
+
+			// send trades to message queue
+			for _, trade := range trades {
+				rawTrade := trade.ToJSON()
+				log.Println("Publishing trade on topic -> trades")
+
+				// publish the message over receiving channel
+				producer.Input() <- &sarama.ProducerMessage{
+					Topic: "trades",
+					Value: sarama.ByteEncoder(rawTrade),
+				}
+			}
+			// mark the offset as commited
+			consumer.MarkOffset(msg, "")
+		}
+	}
+
+		done <- true
+	}()
+	<-done
+}
+
+func createConsumer() *cluster.Consumer {
+	// define the configuration for our cluster
+	config := cluster.NewConfig()
+	config.Consumer.Return.Errors = false
+	config.Group.Return.Notifications = false
+	config.Consumer.Offsets.Initial = sarama.OffsetOldest // earliest uncommited offset
+	config.Consumer.Offsets.CommitInterval = time.Second
+
+	orderTopic := []string{"orders"}
+
+	log.Println("Listening for orders on topic -> ", orderTopic)
+	// create the consumer
+	consumer, err := cluster.NewConsumer(
+		[]string{"192.168.1.51:29092"},
+		"orderbook-cg",
+		orderTopic,
+		config,
+	)
+
+	if err != nil {
+		log.Fatal("Unable to connect to kafka cluster")
+	}
+
+	go handleErrors(consumer)
+	go handleNotifications(consumer)
+	return consumer
+}
+
+func handleErrors(consumer *cluster.Consumer) {
+	for err := range consumer.Errors() {
+		log.Printf("Error: %s\n", err.Error())
+	}
+}
+
+func handleNotifications(consumer *cluster.Consumer) {
+	for ntf := range consumer.Notifications() {
+		log.Printf("Rebalanced %+v\n", ntf)
+	}
+}
+
+func createProducer() sarama.AsyncProducer {
+	config := sarama.NewConfig()
+	config.Producer.Return.Successes = false         // fire and forget
+	config.Producer.Return.Errors = true             // notify on failed
+	config.Producer.RequiredAcks = sarama.WaitForAll // waits for all insync replicas to commit
+
+	producer, err := sarama.NewAsyncProducer([]string{"192.168.1.51:29092"}, config)
+
+	if err != nil {
+		log.Fatal("Unable to connect producer to kafka server")
+	}
+
+	return producer
+
+}
+func createProducer2() sarama.AsyncProducer {
+	config := sarama.NewConfig()
+	config.Producer.Return.Successes = true          //false         // fire and forget
+	config.Producer.Return.Errors = true             // notify on failed
+	config.Producer.RequiredAcks = sarama.WaitForAll // waits for all insync replicas to commit
+
+	config.Producer.Retry.Backoff.Nanoseconds()
+	producer, err := sarama.NewAsyncProducer([]string{"192.168.1.51:29092"}, config)
+
+	if err != nil {
+		log.Printf(err.Error())
+		log.Fatal("Unable to connect producer to kafka server")
+	}
+
+	return producer
+
+}

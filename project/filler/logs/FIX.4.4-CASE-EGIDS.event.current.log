@@ -1,0 +1,280 @@
+2023/02/15 10:00:56.353185 Created session
+2023/02/15 10:01:39.829395 Created session
+2023/02/15 10:01:41.185883 Received logon request
+2023/02/15 10:01:41.185895 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:01:41.185900 Responding to logon request
+2023/02/15 10:01:42.721275 Disconnected
+2023/02/15 10:01:43.857358 Received logon request
+2023/02/15 10:01:43.857364 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:01:43.857369 Responding to logon request
+2023/02/15 10:03:06.235147 Created session
+2023/02/15 10:03:13.081011 Received logon request
+2023/02/15 10:03:13.081021 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:03:13.081025 Responding to logon request
+2023/02/15 10:03:20.384506 Inititated logout request
+2023/02/15 10:03:20.384553 Timed out waiting for logout response
+2023/02/15 10:03:20.384559 Disconnected
+2023/02/15 10:04:25.749039 Created session
+2023/02/15 10:04:31.210185 Received logon request
+2023/02/15 10:04:31.210193 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:04:31.210197 Responding to logon request
+2023/02/15 10:04:35.152396 Inititated logout request
+2023/02/15 10:04:35.152432 Timed out waiting for logout response
+2023/02/15 10:04:35.152438 Disconnected
+2023/02/15 10:07:36.859020 Created session
+2023/02/15 10:08:06.378689 Created session
+2023/02/15 10:08:15.162107 Received logon request
+2023/02/15 10:08:15.162119 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:08:15.162126 Responding to logon request
+2023/02/15 10:08:15.329362 Disconnected
+2023/02/15 10:08:15.331446 Received logon request
+2023/02/15 10:08:15.331455 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:08:15.331462 Responding to logon request
+2023/02/15 10:08:16.746231 Disconnected
+2023/02/15 10:08:20.033534 Received logon request
+2023/02/15 10:08:20.033545 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:08:20.033551 Responding to logon request
+2023/02/15 10:09:24.260431 Created session
+2023/02/15 10:09:29.570364 Received logon request
+2023/02/15 10:09:29.570376 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:09:29.570383 Responding to logon request
+2023/02/15 10:12:05.209510 Disconnected
+2023/02/15 10:12:06.058196 Received logon request
+2023/02/15 10:12:06.058212 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:12:06.058219 Responding to logon request
+2023/02/15 10:17:16.250531 Created session
+2023/02/15 10:17:22.345671 Received logon request
+2023/02/15 10:17:22.345684 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:17:22.345690 Responding to logon request
+2023/02/15 10:18:48.290981 Created session
+2023/02/15 10:18:58.570142 Received logon request
+2023/02/15 10:18:58.570155 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:18:58.570162 Responding to logon request
+2023/02/15 10:20:12.898936 Created session
+2023/02/15 10:20:17.842571 Received logon request
+2023/02/15 10:20:17.842604 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:20:17.842614 Responding to logon request
+2023/02/15 10:25:26.338265 Created session
+2023/02/15 10:25:34.737880 Received logon request
+2023/02/15 10:25:34.737893 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:25:34.737901 Responding to logon request
+2023/02/15 10:28:25.420471 Sent test request TEST
+2023/02/15 10:30:11.069843 Created session
+2023/02/15 10:30:17.076200 Received logon request
+2023/02/15 10:30:17.076215 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:30:17.076222 Responding to logon request
+2023/02/15 10:32:10.238833 Created session
+2023/02/15 10:32:15.043407 Received logon request
+2023/02/15 10:32:15.043419 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:32:15.043426 Responding to logon request
+2023/02/15 10:34:40.029868 Sent test request TEST
+2023/02/15 10:35:56.030728 Created session
+2023/02/15 10:36:06.938304 Received logon request
+2023/02/15 10:36:06.938316 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:36:06.938322 Responding to logon request
+2023/02/15 10:37:20.725088 Created session
+2023/02/15 10:37:28.490229 Received logon request
+2023/02/15 10:37:28.490242 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:37:28.490250 Responding to logon request
+2023/02/15 10:40:15.165724 Sent test request TEST
+2023/02/15 10:41:02.642566 Created session
+2023/02/15 10:41:11.074807 Received logon request
+2023/02/15 10:41:11.074821 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 10:41:11.074828 Responding to logon request
+2023/02/15 10:42:56.189939 Created session
+2023/02/15 11:07:24.740779 Created session
+2023/02/15 11:09:13.020174 Created session
+2023/02/15 11:10:48.574583 Created session
+2023/02/15 11:12:28.405819 Created session
+2023/02/15 11:12:31.325946 Received logon request
+2023/02/15 11:12:31.325977 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 11:12:31.325990 Responding to logon request
+2023/02/15 11:15:20.438665 Created session
+2023/02/15 11:15:30.091523 Disconnected
+2023/02/15 11:15:30.559077 Received logon request
+2023/02/15 11:15:30.559116 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 11:15:30.559135 Responding to logon request
+2023/02/15 11:15:48.523011 Inititated logout request
+2023/02/15 11:15:48.523030 Timed out waiting for logout response
+2023/02/15 11:15:48.523034 Disconnected
+2023/02/15 11:15:59.651429 Created session
+2023/02/15 11:16:09.168470 Received logon request
+2023/02/15 11:16:09.168519 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 11:16:09.168545 Responding to logon request
+2023/02/15 11:21:18.929059 Created session
+2023/02/15 11:21:29.463662 Received logon request
+2023/02/15 11:21:29.463712 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 11:21:29.463740 Responding to logon request
+2023/02/15 11:22:08.107823 Created session
+2023/02/15 11:22:13.831414 Received logon request
+2023/02/15 11:22:13.831453 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/02/15 11:22:13.831480 Responding to logon request
+2023/09/12 16:23:59.162558 Created session
+2023/09/12 16:24:03.657486 Received logon request
+2023/09/12 16:24:03.657532 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 16:24:03.657557 Responding to logon request
+2023/09/12 16:24:38.759855 Disconnected
+2023/09/12 16:24:39.263245 Received logon request
+2023/09/12 16:24:39.263272 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 16:24:39.263289 Responding to logon request
+2023/09/12 16:27:03.270510 Sent test request TEST
+2023/09/12 16:28:58.518466 Created session
+2023/09/12 16:29:02.733788 Received logon request
+2023/09/12 16:29:02.733799 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 16:29:02.733806 Responding to logon request
+2023/09/12 16:30:56.508378 Created session
+2023/09/12 16:32:12.245712 Received logon request
+2023/09/12 16:32:12.245724 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 16:32:12.245732 Responding to logon request
+2023/09/12 16:32:19.589570 Message Rejected: Unsupported Message Type
+2023/09/12 16:32:21.759864 Message Rejected: Unsupported Message Type
+2023/09/12 16:34:45.760585 Sent test request TEST
+2023/09/12 16:37:09.823741 Sent test request TEST
+2023/09/12 16:39:33.858951 Sent test request TEST
+2023/09/12 17:14:15.582101 Created session
+2023/09/12 17:14:27.974572 Received logon request
+2023/09/12 17:14:27.974626 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:14:27.974713 Responding to logon request
+2023/09/12 17:14:33.519453 Message Rejected: Unsupported Message Type
+2023/09/12 17:14:37.328222 Message Rejected: Unsupported Message Type
+2023/09/12 17:16:12.512475 Disconnected
+2023/09/12 17:16:12.952366 Received logon request
+2023/09/12 17:16:12.952384 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:16:12.952392 Responding to logon request
+2023/09/12 17:16:53.287233 Message Rejected: Unsupported Message Type
+2023/09/12 17:16:56.865122 Message Rejected: Unsupported Message Type
+2023/09/12 17:18:20.337329 Created session
+2023/09/12 17:18:27.894669 Received logon request
+2023/09/12 17:18:27.894680 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:18:27.894688 Responding to logon request
+2023/09/12 17:19:37.401225 Created session
+2023/09/12 17:19:46.415000 Received logon request
+2023/09/12 17:19:46.415009 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:19:46.415017 Responding to logon request
+2023/09/12 17:20:31.017778 Created session
+2023/09/12 17:20:51.830649 Received logon request
+2023/09/12 17:20:51.830660 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:20:51.830667 Responding to logon request
+2023/09/12 17:24:21.998821 Created session
+2023/09/12 17:24:29.423401 Received logon request
+2023/09/12 17:24:29.423417 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:24:29.423427 Responding to logon request
+2023/09/12 17:25:08.968108 Created session
+2023/09/12 17:25:14.218020 Received logon request
+2023/09/12 17:25:14.218056 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:25:14.218077 Responding to logon request
+2023/09/12 17:26:13.758487 Created session
+2023/09/12 17:26:17.582795 Received logon request
+2023/09/12 17:26:17.582806 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:26:17.582814 Responding to logon request
+2023/09/12 17:26:34.401143 Message Rejected: Unsupported Message Type
+2023/09/12 17:26:46.719209 Disconnected
+2023/09/12 17:26:47.407183 Received logon request
+2023/09/12 17:26:47.407197 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:26:47.407205 Responding to logon request
+2023/09/12 17:27:17.726896 Created session
+2023/09/12 17:27:21.622533 Disconnected
+2023/09/12 17:28:59.522739 Created session
+2023/09/12 17:29:06.586567 Received logon request
+2023/09/12 17:29:06.586594 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:29:06.586610 Responding to logon request
+2023/09/12 17:29:37.752231 Created session
+2023/09/12 17:29:43.880831 Received logon request
+2023/09/12 17:29:43.880859 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:29:43.880879 Responding to logon request
+2023/09/12 17:29:59.426875 Message Rejected: Unsupported Message Type
+2023/09/12 17:29:59.426991 Message Rejected: Unsupported Message Type
+2023/09/12 17:30:13.935362 Disconnected
+2023/09/12 17:30:14.367721 Received logon request
+2023/09/12 17:30:14.367739 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:30:14.367750 Responding to logon request
+2023/09/12 17:32:00.561449 Created session
+2023/09/12 17:32:03.278986 Received logon request
+2023/09/12 17:32:03.278997 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:32:03.279004 Responding to logon request
+2023/09/12 17:32:06.710723 Message Rejected: Unsupported Message Type
+2023/09/12 17:32:08.568099 Message Rejected: Unsupported Message Type
+2023/09/12 17:33:15.800499 Created session
+2023/09/12 17:33:24.623090 Received logon request
+2023/09/12 17:33:24.623105 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:33:24.623113 Responding to logon request
+2023/09/12 17:34:05.900938 Created session
+2023/09/12 17:34:09.975497 Received logon request
+2023/09/12 17:34:09.975508 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 17:34:09.975514 Responding to logon request
+2023/09/12 17:43:58.740575 Created session
+2023/09/12 17:44:58.343481 Created session
+2023/09/12 17:59:49.830454 Created session
+2023/09/12 18:00:48.881113 Created session
+2023/09/12 18:01:48.301049 Created session
+2023/09/12 18:02:00.000403 Created session
+2023/09/12 18:02:48.842184 Created session
+2023/09/12 18:02:51.576515 Received logon request
+2023/09/12 18:02:51.576529 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:02:51.576536 Responding to logon request
+2023/09/12 18:03:11.704199 Created session
+2023/09/12 18:03:18.408409 Received logon request
+2023/09/12 18:03:18.408426 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:03:18.408435 Responding to logon request
+2023/09/12 18:04:06.974695 Created session
+2023/09/12 18:04:11.391679 Received logon request
+2023/09/12 18:04:11.391687 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:04:11.391695 Responding to logon request
+2023/09/12 18:04:11.638914 Disconnected
+2023/09/12 18:04:11.642044 Received logon request
+2023/09/12 18:04:11.642051 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:04:11.642058 Responding to logon request
+2023/09/12 18:04:27.885393 Created session
+2023/09/12 18:04:34.895737 Received logon request
+2023/09/12 18:04:34.895748 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:04:34.895755 Responding to logon request
+2023/09/12 18:04:39.015330 Message Rejected: Conditionally Required Field Missing (38)
+2023/09/12 18:04:42.711233 Message Rejected: Conditionally Required Field Missing (38)
+2023/09/12 18:05:42.609810 Created session
+2023/09/12 18:05:45.687817 Received logon request
+2023/09/12 18:05:45.687848 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:05:45.687862 Responding to logon request
+2023/09/12 18:05:53.409803 Message Rejected: Conditionally Required Field Missing (38)
+2023/09/12 18:06:09.634647 Created session
+2023/09/12 18:06:14.311890 Received logon request
+2023/09/12 18:06:14.311901 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:06:14.311910 Responding to logon request
+2023/09/12 18:06:30.259152 Message Rejected: Conditionally Required Field Missing (38)
+2023/09/12 18:06:42.134684 Created session
+2023/09/12 18:06:44.831804 Received logon request
+2023/09/12 18:06:44.831817 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:06:44.831824 Responding to logon request
+2023/09/12 18:07:01.820108 Message Rejected: Conditionally Required Field Missing (38)
+2023/09/12 18:08:19.015878 Created session
+2023/09/12 18:08:22.056104 Received logon request
+2023/09/12 18:08:22.056117 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:08:22.056125 Responding to logon request
+2023/09/12 18:08:46.085240 Created session
+2023/09/12 18:08:49.656073 Received logon request
+2023/09/12 18:08:49.656086 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:08:49.656093 Responding to logon request
+2023/09/12 18:09:05.396201 Message Rejected: Conditionally Required Field Missing (38)
+2023/09/12 18:11:01.765551 Created session
+2023/09/12 18:11:07.379498 Received logon request
+2023/09/12 18:11:07.379533 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:11:07.379553 Responding to logon request
+2023/09/12 18:12:20.764134 Created session
+2023/09/12 18:12:24.647988 Received logon request
+2023/09/12 18:12:24.647998 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:12:24.648005 Responding to logon request
+2023/09/12 18:12:53.464595 Disconnected
+2023/09/12 18:12:54.495821 Received logon request
+2023/09/12 18:12:54.495832 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:12:54.495839 Responding to logon request
+2023/09/12 18:14:41.466014 Created session
+2023/09/12 18:14:45.361171 Received logon request
+2023/09/12 18:14:45.361191 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:14:45.361202 Responding to logon request
+2023/09/12 18:15:08.745293 Disconnected
+2023/09/12 18:17:05.067421 Received logon request
+2023/09/12 18:17:05.067428 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:17:05.067444 Responding to logon request
+2023/09/12 18:17:15.143652 Disconnected
+2023/09/12 18:17:15.969497 Received logon request
+2023/09/12 18:17:15.969505 Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+2023/09/12 18:17:15.969512 Responding to logon request

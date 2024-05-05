@@ -1,0 +1,17 @@
+helm install kafka bitnami/kafka \
+ --set zookeeper.enabled=false \
+ --set replicaCount=3 \
+ --set externalZookeeper.servers=zookeeper.default.svc.cluster.local \
+ --set deleteTopicEnable=true \
+ --set autoCreateTopicsEnable=true \
+ --set persistence.size=60Gi \
+ --set logPersistence.size=60Gi \
+ --set auth.clientProtocol=sasl \
+ --set auth.saslMechanisms=SASL_Plaintext \
+ --set allowPlaintextListener=true \
+ --set externalAccess.enabled=true \
+ --set externalAccess.service.loadBalancerIPs[0]='192.168.1.70'\
+ --set externalAccess.service.loadBalancerIPs[1]='192.168.1.71' \
+ --set sasl.mechanism=PLAIN\
+ --set authorizer.class.name=kafka.security.auth.SimpleAclAuthorizer\
+ --set externalAccess.service.loadBalancerIPs[2]='192.168.1.72'

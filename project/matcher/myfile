@@ -1,0 +1,5882 @@
+-----------------------------------------
+        EGX new matching Engine 1.0               
+-----------------------------------------
+Connecting to MySQL Success!
+Prepared order books for 5412 Securities
+_________GOT-- {"Seccode":"EGS922W1C016","id":77430169,"side":"buy","price":1.14,"quantity":195,"timestamp":1673638230}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 0  Bids = 0
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 195  and Price= 1.14
+Found  0  sell orders
+Adding the buy order to the book since ther are no sell orders
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 0  Bids = 1
+Bids
+77430169 : 195 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431190,"side":"buy","price":1.19,"quantity":139,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 0  Bids = 1
+Bids
+77430169 : 195 @ 1.14
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 139  and Price= 1.19
+Found  0  sell orders
+Adding the buy order to the book since ther are no sell orders
+Adding buy order # 77431190
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 0  Bids = 2
+Bids
+77431190 : 139 @ 1.19
+77430169 : 195 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431212,"side":"buy","price":1.88,"quantity":42,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 0  Bids = 2
+Bids
+77431190 : 139 @ 1.19
+77430169 : 195 @ 1.14
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 42  and Price= 1.88
+Found  0  sell orders
+Adding the buy order to the book since ther are no sell orders
+Adding buy order # 77431212
+Adding buy order # 77431212
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 0  Bids = 3
+Bids
+77431212 : 42 @ 1.88
+77431190 : 139 @ 1.19
+77430169 : 195 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431228,"side":"sell","price":1.64,"quantity":198,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 0  Bids = 3
+Bids
+77431212 : 42 @ 1.88
+77431190 : 139 @ 1.19
+77430169 : 195 @ 1.14
+--------------------------------------
+Process Sell order
+Removing Buy order # 77431212
+NO morder orders that can match ....
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 1  Bids = 2
+Asks
+77431228 : 156 @ 1.64
+
+Bids
+77431190 : 139 @ 1.19
+77430169 : 195 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431246,"side":"buy","price":1.97,"quantity":73,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 1  Bids = 2
+Asks
+77431228 : 156 @ 1.64
+
+Bids
+77431190 : 139 @ 1.19
+77430169 : 195 @ 1.14
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 73  and Price= 1.97
+Found  1  sell orders
+checking sell order of qty= 156 @ 1.64
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 1  Bids = 2
+Asks
+77431228 : 156 @ 1.64
+
+Bids
+77431190 : 139 @ 1.19
+77430169 : 195 @ 1.14
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 1  Bids = 2
+Asks
+77431228 : 156 @ 1.64
+
+Bids
+77431190 : 139 @ 1.19
+77430169 : 195 @ 1.14
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 1  Bids = 2
+Asks
+77431228 : 83 @ 1.64
+
+Bids
+77431190 : 139 @ 1.19
+77430169 : 195 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431262,"side":"sell","price":1.12,"quantity":167,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 1  Bids = 2
+Asks
+77431228 : 83 @ 1.64
+
+Bids
+77431190 : 139 @ 1.19
+77430169 : 195 @ 1.14
+--------------------------------------
+Process Sell order
+Removing Buy order # 77431190
+Comming sell order is fully Matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 1  Bids = 1
+Asks
+77431228 : 83 @ 1.64
+
+Bids
+77430169 : 167 @ 1.14
+--------------------------------------
+Order MAtched
+Sell order remaining quantity  0
+0
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 1  Bids = 1
+Asks
+77431228 : 83 @ 1.64
+
+Bids
+77430169 : 167 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431278,"side":"buy","price":1.52,"quantity":46,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 1  Bids = 1
+Asks
+77431228 : 83 @ 1.64
+
+Bids
+77430169 : 167 @ 1.14
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 46  and Price= 1.52
+Found  1  sell orders
+checking sell order of qty= 83 @ 1.64
+sell order cant match since it has a higher price
+Adding the new order to book buy 46 ,@ 1.52
+Adding buy order # 77431278
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 1  Bids = 2
+Asks
+77431228 : 83 @ 1.64
+
+Bids
+77431278 : 46 @ 1.52
+77430169 : 167 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431292,"side":"sell","price":1.96,"quantity":176,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 1  Bids = 2
+Asks
+77431228 : 83 @ 1.64
+
+Bids
+77431278 : 46 @ 1.52
+77430169 : 167 @ 1.14
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77431292
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 2  Bids = 2
+Asks
+77431228 : 83 @ 1.64
+77431292 : 176 @ 1.96
+
+Bids
+77431278 : 46 @ 1.52
+77430169 : 167 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431309,"side":"sell","price":1.41,"quantity":91,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 2  Bids = 2
+Asks
+77431228 : 83 @ 1.64
+77431292 : 176 @ 1.96
+
+Bids
+77431278 : 46 @ 1.52
+77430169 : 167 @ 1.14
+--------------------------------------
+Process Sell order
+Removing Buy order # 77431278
+NO morder orders that can match ....
+Adding Sell order # 77431309
+Adding Sell order # 77431309
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 3  Bids = 1
+Asks
+77431309 : 45 @ 1.41
+77431228 : 83 @ 1.64
+77431292 : 176 @ 1.96
+
+Bids
+77430169 : 167 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431325,"side":"sell","price":1.66,"quantity":77,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 3  Bids = 1
+Asks
+77431309 : 45 @ 1.41
+77431228 : 83 @ 1.64
+77431292 : 176 @ 1.96
+
+Bids
+77430169 : 167 @ 1.14
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77431325
+Adding Sell order # 77431325
+Adding Sell order # 77431325
+Adding Sell order # 77431325
+Adding Sell order # 77431325
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 4  Bids = 1
+Asks
+77431309 : 45 @ 1.41
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431292 : 176 @ 1.96
+
+Bids
+77430169 : 167 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431338,"side":"buy","price":1.46,"quantity":97,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 4  Bids = 1
+Asks
+77431309 : 45 @ 1.41
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431292 : 176 @ 1.96
+
+Bids
+77430169 : 167 @ 1.14
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 97  and Price= 1.46
+Found  4  sell orders
+checking sell order of qty= 45 @ 1.41
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77431309
+checking sell order of qty= 83 @ 1.64
+sell order cant match since it has a higher price
+Adding the new order to book buy 52 ,@ 1.46
+Adding buy order # 77431338
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 3  Bids = 2
+Asks
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431292 : 176 @ 1.96
+
+Bids
+77431338 : 52 @ 1.46
+77430169 : 167 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431355,"side":"sell","price":1.63,"quantity":145,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 3  Bids = 2
+Asks
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431292 : 176 @ 1.96
+
+Bids
+77431338 : 52 @ 1.46
+77430169 : 167 @ 1.14
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77431355
+Adding Sell order # 77431355
+Adding Sell order # 77431355
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 4  Bids = 2
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431292 : 176 @ 1.96
+
+Bids
+77431338 : 52 @ 1.46
+77430169 : 167 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431373,"side":"sell","price":1.90,"quantity":50,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 4  Bids = 2
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431292 : 176 @ 1.96
+
+Bids
+77431338 : 52 @ 1.46
+77430169 : 167 @ 1.14
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77431373
+Adding Sell order # 77431373
+Adding Sell order # 77431373
+Adding Sell order # 77431373
+Adding Sell order # 77431373
+Adding Sell order # 77431373
+Adding Sell order # 77431373
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 2
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431338 : 52 @ 1.46
+77430169 : 167 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431388,"side":"sell","price":1.07,"quantity":82,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 2
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431338 : 52 @ 1.46
+77430169 : 167 @ 1.14
+--------------------------------------
+Process Sell order
+Removing Buy order # 77431338
+Comming sell order is fully Matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 1
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77430169 : 137 @ 1.14
+--------------------------------------
+Order MAtched
+Sell order remaining quantity  0
+0
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 1
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77430169 : 137 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431407,"side":"buy","price":1.26,"quantity":174,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 1
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77430169 : 137 @ 1.14
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 174  and Price= 1.26
+Found  5  sell orders
+checking sell order of qty= 145 @ 1.63
+sell order cant match since it has a higher price
+Adding the new order to book buy 174 ,@ 1.26
+Adding buy order # 77431407
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 2
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431421,"side":"buy","price":1.01,"quantity":185,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 2
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 185  and Price= 1.01
+Found  5  sell orders
+checking sell order of qty= 145 @ 1.63
+sell order cant match since it has a higher price
+Adding the new order to book buy 185 ,@ 1.01
+Adding buy order # 77431421
+Adding buy order # 77431421
+Adding buy order # 77431421
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 3
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431438,"side":"buy","price":1.86,"quantity":72,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 3
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 72  and Price= 1.86
+Found  5  sell orders
+checking sell order of qty= 145 @ 1.63
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 3
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 3
+Asks
+77431355 : 145 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 3
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431458,"side":"sell","price":1.78,"quantity":39,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 3
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77431458
+Adding Sell order # 77431458
+Adding Sell order # 77431458
+Adding Sell order # 77431458
+Adding Sell order # 77431458
+Adding Sell order # 77431458
+Adding Sell order # 77431458
+Adding Sell order # 77431458
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 3
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431486,"side":"buy","price":1.36,"quantity":81,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 3
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 81  and Price= 1.36
+Found  6  sell orders
+checking sell order of qty= 73 @ 1.63
+sell order cant match since it has a higher price
+Adding the new order to book buy 81 ,@ 1.36
+Adding buy order # 77431486
+Adding buy order # 77431486
+Adding buy order # 77431486
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 4
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431486 : 81 @ 1.36
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431496,"side":"buy","price":1.09,"quantity":192,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 4
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431486 : 81 @ 1.36
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 192  and Price= 1.09
+Found  6  sell orders
+checking sell order of qty= 73 @ 1.63
+sell order cant match since it has a higher price
+Adding the new order to book buy 192 ,@ 1.09
+Adding buy order # 77431496
+Adding buy order # 77431496
+Adding buy order # 77431496
+Adding buy order # 77431496
+Adding buy order # 77431496
+Adding buy order # 77431496
+Adding buy order # 77431496
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 5
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431486 : 81 @ 1.36
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431515,"side":"buy","price":1.60,"quantity":26,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 5
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431486 : 81 @ 1.36
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 26  and Price= 1.6
+Found  6  sell orders
+checking sell order of qty= 73 @ 1.63
+sell order cant match since it has a higher price
+Adding the new order to book buy 26 ,@ 1.6
+Adding buy order # 77431515
+Adding buy order # 77431515
+Adding buy order # 77431515
+Adding buy order # 77431515
+Adding buy order # 77431515
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 6
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431515 : 26 @ 1.6
+77431486 : 81 @ 1.36
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431528,"side":"sell","price":1.48,"quantity":58,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 6
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431515 : 26 @ 1.6
+77431486 : 81 @ 1.36
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Removing Buy order # 77431515
+NO morder orders that can match ....
+Adding Sell order # 77431528
+Adding Sell order # 77431528
+Adding Sell order # 77431528
+Adding Sell order # 77431528
+Adding Sell order # 77431528
+Adding Sell order # 77431528
+Adding Sell order # 77431528
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 5
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431486 : 81 @ 1.36
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431545,"side":"sell","price":1.98,"quantity":106,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 5
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+
+Bids
+77431486 : 81 @ 1.36
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+Adding Sell order # 77431545
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431486 : 81 @ 1.36
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431559,"side":"buy","price":1.33,"quantity":21,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431486 : 81 @ 1.36
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 21  and Price= 1.33
+Found  8  sell orders
+checking sell order of qty= 32 @ 1.48
+sell order cant match since it has a higher price
+Adding the new order to book buy 21 ,@ 1.33
+Adding buy order # 77431559
+Adding buy order # 77431559
+Adding buy order # 77431559
+Adding buy order # 77431559
+Adding buy order # 77431559
+Adding buy order # 77431559
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 6
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431486 : 81 @ 1.36
+77431559 : 21 @ 1.33
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431595,"side":"sell","price":1.16,"quantity":141,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 6
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431486 : 81 @ 1.36
+77431559 : 21 @ 1.33
+77431407 : 174 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Removing Buy order # 77431486
+Removing Buy order # 77431559
+Comming sell order is fully Matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 135 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+Order MAtched
+Sell order remaining quantity  0
+0
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 135 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431616,"side":"buy","price":1.02,"quantity":95,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 135 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 95  and Price= 1.02
+Found  8  sell orders
+checking sell order of qty= 32 @ 1.48
+sell order cant match since it has a higher price
+Adding the new order to book buy 95 ,@ 1.02
+Adding buy order # 77431616
+Adding buy order # 77431616
+Adding buy order # 77431616
+Adding buy order # 77431616
+Adding buy order # 77431616
+Adding buy order # 77431616
+Adding buy order # 77431616
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 135 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431640,"side":"buy","price":1.18,"quantity":84,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 135 @ 1.26
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 84  and Price= 1.18
+Found  8  sell orders
+checking sell order of qty= 32 @ 1.48
+sell order cant match since it has a higher price
+Adding the new order to book buy 84 ,@ 1.18
+Adding buy order # 77431640
+Adding buy order # 77431640
+Adding buy order # 77431640
+Adding buy order # 77431640
+Adding buy order # 77431640
+Adding buy order # 77431640
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 6
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 135 @ 1.26
+77431640 : 84 @ 1.18
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431653,"side":"buy","price":1.23,"quantity":52,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 6
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 135 @ 1.26
+77431640 : 84 @ 1.18
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 52  and Price= 1.23
+Found  8  sell orders
+checking sell order of qty= 32 @ 1.48
+sell order cant match since it has a higher price
+Adding the new order to book buy 52 ,@ 1.23
+Adding buy order # 77431653
+Adding buy order # 77431653
+Adding buy order # 77431653
+Adding buy order # 77431653
+Adding buy order # 77431653
+Adding buy order # 77431653
+Adding buy order # 77431653
+Adding buy order # 77431653
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 7
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 135 @ 1.26
+77431653 : 52 @ 1.23
+77431640 : 84 @ 1.18
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431672,"side":"sell","price":1.20,"quantity":129,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 7
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 135 @ 1.26
+77431653 : 52 @ 1.23
+77431640 : 84 @ 1.18
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Comming sell order is fully Matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 7
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 6 @ 1.26
+77431653 : 52 @ 1.23
+77431640 : 84 @ 1.18
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Order MAtched
+Sell order remaining quantity  0
+0
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 7
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 6 @ 1.26
+77431653 : 52 @ 1.23
+77431640 : 84 @ 1.18
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431698,"side":"sell","price":1.02,"quantity":188,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 7
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431407 : 6 @ 1.26
+77431653 : 52 @ 1.23
+77431640 : 84 @ 1.18
+77430169 : 137 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Removing Buy order # 77431407
+Removing Buy order # 77431653
+Removing Buy order # 77431640
+Comming sell order is fully Matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77430169 : 91 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Order MAtched
+Sell order remaining quantity  0
+0
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77430169 : 91 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431721,"side":"sell","price":1.35,"quantity":120,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77430169 : 91 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77431721
+Adding Sell order # 77431721
+Adding Sell order # 77431721
+Adding Sell order # 77431721
+Adding Sell order # 77431721
+Adding Sell order # 77431721
+Adding Sell order # 77431721
+Adding Sell order # 77431721
+Adding Sell order # 77431721
+Adding Sell order # 77431721
+Adding Sell order # 77431721
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77431721 : 120 @ 1.35
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77430169 : 91 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431753,"side":"buy","price":1.37,"quantity":158,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77431721 : 120 @ 1.35
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77430169 : 91 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 158  and Price= 1.37
+Found  9  sell orders
+checking sell order of qty= 120 @ 1.35
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77431721
+checking sell order of qty= 32 @ 1.48
+sell order cant match since it has a higher price
+Adding the new order to book buy 38 ,@ 1.37
+Adding buy order # 77431753
+Adding buy order # 77431753
+Adding buy order # 77431753
+Adding buy order # 77431753
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431753 : 38 @ 1.37
+77430169 : 91 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431775,"side":"buy","price":1.50,"quantity":80,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77431528 : 32 @ 1.48
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431753 : 38 @ 1.37
+77430169 : 91 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 80  and Price= 1.5
+Found  8  sell orders
+checking sell order of qty= 32 @ 1.48
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77431528
+checking sell order of qty= 73 @ 1.63
+sell order cant match since it has a higher price
+Adding the new order to book buy 48 ,@ 1.5
+Adding buy order # 77431775
+Adding buy order # 77431775
+Adding buy order # 77431775
+Adding buy order # 77431775
+Adding buy order # 77431775
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431775 : 48 @ 1.5
+77431753 : 38 @ 1.37
+77430169 : 91 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431792,"side":"sell","price":1.12,"quantity":194,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431775 : 48 @ 1.5
+77431753 : 38 @ 1.37
+77430169 : 91 @ 1.14
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Removing Buy order # 77431775
+Removing Buy order # 77431753
+Removing Buy order # 77430169
+NO morder orders that can match ....
+Adding Sell order # 77431792
+Adding Sell order # 77431792
+Adding Sell order # 77431792
+Adding Sell order # 77431792
+Adding Sell order # 77431792
+Adding Sell order # 77431792
+Adding Sell order # 77431792
+Adding Sell order # 77431792
+Adding Sell order # 77431792
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 3
+Asks
+77431792 : 17 @ 1.12
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431837,"side":"sell","price":1.98,"quantity":162,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 3
+Asks
+77431792 : 17 @ 1.12
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+Adding Sell order # 77431837
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 3
+Asks
+77431792 : 17 @ 1.12
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431856,"side":"buy","price":1.43,"quantity":58,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 3
+Asks
+77431792 : 17 @ 1.12
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 58  and Price= 1.43
+Found  9  sell orders
+checking sell order of qty= 17 @ 1.12
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77431792
+checking sell order of qty= 73 @ 1.63
+sell order cant match since it has a higher price
+Adding the new order to book buy 41 ,@ 1.43
+Adding buy order # 77431856
+Adding buy order # 77431856
+Adding buy order # 77431856
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431856 : 41 @ 1.43
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431877,"side":"sell","price":1.07,"quantity":37,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431856 : 41 @ 1.43
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Comming sell order is fully Matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431856 : 4 @ 1.43
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Order MAtched
+Sell order remaining quantity  0
+0
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431856 : 4 @ 1.43
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431906,"side":"sell","price":1.30,"quantity":191,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431856 : 4 @ 1.43
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Removing Buy order # 77431856
+NO morder orders that can match ....
+Adding Sell order # 77431906
+Adding Sell order # 77431906
+Adding Sell order # 77431906
+Adding Sell order # 77431906
+Adding Sell order # 77431906
+Adding Sell order # 77431906
+Adding Sell order # 77431906
+Adding Sell order # 77431906
+Adding Sell order # 77431906
+Adding Sell order # 77431906
+Adding Sell order # 77431906
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 3
+Asks
+77431906 : 187 @ 1.3
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431919,"side":"buy","price":1.31,"quantity":70,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 3
+Asks
+77431906 : 187 @ 1.3
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 70  and Price= 1.31
+Found  9  sell orders
+checking sell order of qty= 187 @ 1.3
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 3
+Asks
+77431906 : 187 @ 1.3
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 3
+Asks
+77431906 : 187 @ 1.3
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 3
+Asks
+77431906 : 117 @ 1.3
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431943,"side":"buy","price":1.94,"quantity":167,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 3
+Asks
+77431906 : 117 @ 1.3
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 167  and Price= 1.94
+Found  9  sell orders
+checking sell order of qty= 117 @ 1.3
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77431906
+checking sell order of qty= 73 @ 1.63
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 3
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 3
+Asks
+77431355 : 73 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 3
+Asks
+77431355 : 23 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431974,"side":"buy","price":1.97,"quantity":131,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 3
+Asks
+77431355 : 23 @ 1.63
+77431228 : 83 @ 1.64
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 131  and Price= 1.97
+Found  8  sell orders
+checking sell order of qty= 23 @ 1.63
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77431355
+checking sell order of qty= 83 @ 1.64
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77431228
+checking sell order of qty= 77 @ 1.66
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 3
+Asks
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 3
+Asks
+77431325 : 77 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 3
+Asks
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77431998,"side":"buy","price":1.05,"quantity":158,"timestamp":1673638231}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 3
+Asks
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 158  and Price= 1.05
+Found  6  sell orders
+checking sell order of qty= 52 @ 1.66
+sell order cant match since it has a higher price
+Adding the new order to book buy 158 ,@ 1.05
+Adding buy order # 77431998
+Adding buy order # 77431998
+Adding buy order # 77431998
+Adding buy order # 77431998
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 4
+Asks
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432015,"side":"sell","price":1.38,"quantity":97,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 4
+Asks
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432015
+Adding Sell order # 77432015
+Adding Sell order # 77432015
+Adding Sell order # 77432015
+Adding Sell order # 77432015
+Adding Sell order # 77432015
+Adding Sell order # 77432015
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 4
+Asks
+77432015 : 97 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432035,"side":"buy","price":1.29,"quantity":117,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 4
+Asks
+77432015 : 97 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 117  and Price= 1.29
+Found  7  sell orders
+checking sell order of qty= 97 @ 1.38
+sell order cant match since it has a higher price
+Adding the new order to book buy 117 ,@ 1.29
+Adding buy order # 77432035
+Adding buy order # 77432035
+Adding buy order # 77432035
+Adding buy order # 77432035
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 5
+Asks
+77432015 : 97 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432057,"side":"buy","price":1.11,"quantity":12,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 5
+Asks
+77432015 : 97 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 12  and Price= 1.11
+Found  7  sell orders
+checking sell order of qty= 97 @ 1.38
+sell order cant match since it has a higher price
+Adding the new order to book buy 12 ,@ 1.11
+Adding buy order # 77432057
+Adding buy order # 77432057
+Adding buy order # 77432057
+Adding buy order # 77432057
+Adding buy order # 77432057
+Adding buy order # 77432057
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 97 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432076,"side":"buy","price":1.56,"quantity":55,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 97 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 55  and Price= 1.56
+Found  7  sell orders
+checking sell order of qty= 97 @ 1.38
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 97 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 97 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 42 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432091,"side":"buy","price":1.59,"quantity":32,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 42 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 32  and Price= 1.59
+Found  7  sell orders
+checking sell order of qty= 42 @ 1.38
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 42 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 42 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 10 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432113,"side":"sell","price":1.21,"quantity":57,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 10 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 117 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Comming sell order is fully Matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 10 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 60 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Order MAtched
+Sell order remaining quantity  0
+0
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 10 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 60 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432136,"side":"buy","price":1.69,"quantity":144,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 6
+Asks
+77432015 : 10 @ 1.38
+77431325 : 52 @ 1.66
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432035 : 60 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 144  and Price= 1.69
+Found  7  sell orders
+checking sell order of qty= 10 @ 1.38
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432015
+checking sell order of qty= 52 @ 1.66
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77431325
+checking sell order of qty= 39 @ 1.78
+sell order cant match since it has a higher price
+Adding the new order to book buy 82 ,@ 1.69
+Adding buy order # 77432136
+Adding buy order # 77432136
+Adding buy order # 77432136
+Adding buy order # 77432136
+Adding buy order # 77432136
+Adding buy order # 77432136
+Adding buy order # 77432136
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 7
+Asks
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432136 : 82 @ 1.69
+77432035 : 60 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432169,"side":"sell","price":1.21,"quantity":148,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 5  Bids = 7
+Asks
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432136 : 82 @ 1.69
+77432035 : 60 @ 1.29
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Removing Buy order # 77432136
+Removing Buy order # 77432035
+NO morder orders that can match ....
+Adding Sell order # 77432169
+Adding Sell order # 77432169
+Adding Sell order # 77432169
+Adding Sell order # 77432169
+Adding Sell order # 77432169
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 5
+Asks
+77432169 : 6 @ 1.21
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432189,"side":"sell","price":1.38,"quantity":165,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 6  Bids = 5
+Asks
+77432169 : 6 @ 1.21
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432189
+Adding Sell order # 77432189
+Adding Sell order # 77432189
+Adding Sell order # 77432189
+Adding Sell order # 77432189
+Adding Sell order # 77432189
+Adding Sell order # 77432189
+Adding Sell order # 77432189
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 5
+Asks
+77432169 : 6 @ 1.21
+77432189 : 165 @ 1.38
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432209,"side":"sell","price":1.02,"quantity":175,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 5
+Asks
+77432169 : 6 @ 1.21
+77432189 : 165 @ 1.38
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432057 : 12 @ 1.11
+77431496 : 192 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Removing Buy order # 77432057
+Comming sell order is fully Matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 4
+Asks
+77432169 : 6 @ 1.21
+77432189 : 165 @ 1.38
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Order MAtched
+Sell order remaining quantity  0
+0
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 4
+Asks
+77432169 : 6 @ 1.21
+77432189 : 165 @ 1.38
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432230,"side":"sell","price":1.59,"quantity":93,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 4
+Asks
+77432169 : 6 @ 1.21
+77432189 : 165 @ 1.38
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432230
+Adding Sell order # 77432230
+Adding Sell order # 77432230
+Adding Sell order # 77432230
+Adding Sell order # 77432230
+Adding Sell order # 77432230
+Adding Sell order # 77432230
+Adding Sell order # 77432230
+Adding Sell order # 77432230
+Adding Sell order # 77432230
+Adding Sell order # 77432230
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77432169 : 6 @ 1.21
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432248,"side":"buy","price":1.32,"quantity":162,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77432169 : 6 @ 1.21
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 162  and Price= 1.32
+Found  8  sell orders
+checking sell order of qty= 6 @ 1.21
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432169
+checking sell order of qty= 165 @ 1.38
+sell order cant match since it has a higher price
+Adding the new order to book buy 156 ,@ 1.32
+Adding buy order # 77432248
+Adding buy order # 77432248
+Adding buy order # 77432248
+Adding buy order # 77432248
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 5
+Asks
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432262,"side":"sell","price":1.35,"quantity":166,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 7  Bids = 5
+Asks
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432262
+Adding Sell order # 77432262
+Adding Sell order # 77432262
+Adding Sell order # 77432262
+Adding Sell order # 77432262
+Adding Sell order # 77432262
+Adding Sell order # 77432262
+Adding Sell order # 77432262
+Adding Sell order # 77432262
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77432262 : 166 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432279,"side":"buy","price":1.58,"quantity":35,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77432262 : 166 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 35  and Price= 1.58
+Found  8  sell orders
+checking sell order of qty= 166 @ 1.35
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77432262 : 166 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77432262 : 166 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77432262 : 131 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432304,"side":"buy","price":1.78,"quantity":53,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77432262 : 131 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 53  and Price= 1.78
+Found  8  sell orders
+checking sell order of qty= 131 @ 1.35
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77432262 : 131 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77432262 : 131 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77432262 : 78 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432325,"side":"sell","price":1.84,"quantity":142,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 5
+Asks
+77432262 : 78 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+Adding Sell order # 77432325
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432262 : 78 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432342,"side":"sell","price":1.53,"quantity":85,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432262 : 78 @ 1.35
+77432189 : 165 @ 1.38
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+Adding Sell order # 77432342
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 5
+Asks
+77432262 : 78 @ 1.35
+77432189 : 165 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432359,"side":"sell","price":1.00,"quantity":27,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 5
+Asks
+77432262 : 78 @ 1.35
+77432189 : 165 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 156 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Comming sell order is fully Matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 5
+Asks
+77432262 : 78 @ 1.35
+77432189 : 165 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 129 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Order MAtched
+Sell order remaining quantity  0
+0
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 5
+Asks
+77432262 : 78 @ 1.35
+77432189 : 165 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 129 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432377,"side":"buy","price":1.85,"quantity":90,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 5
+Asks
+77432262 : 78 @ 1.35
+77432189 : 165 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 129 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 90  and Price= 1.85
+Found  10  sell orders
+checking sell order of qty= 78 @ 1.35
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432262
+checking sell order of qty= 165 @ 1.38
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 165 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 129 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 165 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 129 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 153 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 129 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432396,"side":"sell","price":1.06,"quantity":116,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 153 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 129 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Comming sell order is fully Matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 153 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Order MAtched
+Sell order remaining quantity  0
+0
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 153 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432408,"side":"buy","price":1.84,"quantity":45,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 153 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 45  and Price= 1.84
+Found  9  sell orders
+checking sell order of qty= 153 @ 1.38
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 153 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 153 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 108 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432422,"side":"buy","price":1.89,"quantity":72,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 108 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 72  and Price= 1.89
+Found  9  sell orders
+checking sell order of qty= 108 @ 1.38
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 108 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 108 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 36 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432438,"side":"buy","price":1.24,"quantity":69,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432189 : 36 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 69  and Price= 1.24
+Found  9  sell orders
+checking sell order of qty= 36 @ 1.38
+sell order cant match since it has a higher price
+Adding the new order to book buy 69 ,@ 1.24
+Adding buy order # 77432438
+Adding buy order # 77432438
+Adding buy order # 77432438
+Adding buy order # 77432438
+Adding buy order # 77432438
+Adding buy order # 77432438
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 6
+Asks
+77432189 : 36 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77432438 : 69 @ 1.24
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432455,"side":"buy","price":1.05,"quantity":91,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 6
+Asks
+77432189 : 36 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77432438 : 69 @ 1.24
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 91  and Price= 1.05
+Found  9  sell orders
+checking sell order of qty= 36 @ 1.38
+sell order cant match since it has a higher price
+Adding the new order to book buy 91 ,@ 1.05
+Adding buy order # 77432455
+Adding buy order # 77432455
+Adding buy order # 77432455
+Adding buy order # 77432455
+Adding buy order # 77432455
+Adding buy order # 77432455
+Adding buy order # 77432455
+Adding buy order # 77432455
+Adding buy order # 77432455
+Adding buy order # 77432455
+Adding buy order # 77432455
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 7
+Asks
+77432189 : 36 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77432438 : 69 @ 1.24
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432468,"side":"sell","price":1.56,"quantity":97,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 7
+Asks
+77432189 : 36 @ 1.38
+77432342 : 85 @ 1.53
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77432438 : 69 @ 1.24
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+Adding Sell order # 77432468
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 7
+Asks
+77432189 : 36 @ 1.38
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77432438 : 69 @ 1.24
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432486,"side":"sell","price":1.39,"quantity":35,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 7
+Asks
+77432189 : 36 @ 1.38
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77432438 : 69 @ 1.24
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+Adding Sell order # 77432486
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 7
+Asks
+77432189 : 36 @ 1.38
+77432486 : 35 @ 1.39
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77432438 : 69 @ 1.24
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432497,"side":"sell","price":1.42,"quantity":123,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 7
+Asks
+77432189 : 36 @ 1.38
+77432486 : 35 @ 1.39
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77432438 : 69 @ 1.24
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+Adding Sell order # 77432497
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 12  Bids = 7
+Asks
+77432189 : 36 @ 1.38
+77432486 : 35 @ 1.39
+77432497 : 123 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77432438 : 69 @ 1.24
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432519,"side":"sell","price":1.06,"quantity":120,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 12  Bids = 7
+Asks
+77432189 : 36 @ 1.38
+77432486 : 35 @ 1.39
+77432497 : 123 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432248 : 13 @ 1.32
+77432438 : 69 @ 1.24
+77431496 : 29 @ 1.09
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Removing Buy order # 77432248
+Removing Buy order # 77432438
+Removing Buy order # 77431496
+NO morder orders that can match ....
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+Adding Sell order # 77432519
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 13  Bids = 4
+Asks
+77432519 : 9 @ 1.06
+77432189 : 36 @ 1.38
+77432486 : 35 @ 1.39
+77432497 : 123 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432544,"side":"buy","price":1.71,"quantity":183,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 13  Bids = 4
+Asks
+77432519 : 9 @ 1.06
+77432189 : 36 @ 1.38
+77432486 : 35 @ 1.39
+77432497 : 123 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 183  and Price= 1.71
+Found  13  sell orders
+checking sell order of qty= 9 @ 1.06
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432519
+checking sell order of qty= 36 @ 1.38
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432189
+checking sell order of qty= 35 @ 1.39
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432486
+checking sell order of qty= 123 @ 1.42
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432497 : 123 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432497 : 123 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432497 : 20 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432559,"side":"sell","price":1.26,"quantity":63,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432497 : 20 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+Adding Sell order # 77432559
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 4
+Asks
+77432559 : 63 @ 1.26
+77432497 : 20 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432577,"side":"sell","price":1.56,"quantity":113,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 4
+Asks
+77432559 : 63 @ 1.26
+77432497 : 20 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+Adding Sell order # 77432577
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 12  Bids = 4
+Asks
+77432559 : 63 @ 1.26
+77432497 : 20 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432591,"side":"buy","price":1.60,"quantity":192,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 12  Bids = 4
+Asks
+77432559 : 63 @ 1.26
+77432497 : 20 @ 1.42
+77432342 : 85 @ 1.53
+77432468 : 97 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 192  and Price= 1.6
+Found  12  sell orders
+checking sell order of qty= 63 @ 1.26
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432559
+checking sell order of qty= 20 @ 1.42
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432497
+checking sell order of qty= 85 @ 1.53
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432342
+checking sell order of qty= 97 @ 1.56
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77432468 : 97 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77432468 : 97 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432608,"side":"sell","price":1.31,"quantity":182,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+Adding Sell order # 77432608
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432608 : 182 @ 1.31
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432623,"side":"buy","price":1.44,"quantity":193,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432608 : 182 @ 1.31
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 193  and Price= 1.44
+Found  10  sell orders
+checking sell order of qty= 182 @ 1.31
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432608
+checking sell order of qty= 73 @ 1.56
+sell order cant match since it has a higher price
+Adding the new order to book buy 11 ,@ 1.44
+Adding buy order # 77432623
+Adding buy order # 77432623
+Adding buy order # 77432623
+Adding buy order # 77432623
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432623 : 11 @ 1.44
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432639,"side":"sell","price":1.20,"quantity":51,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 5
+Asks
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432623 : 11 @ 1.44
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Removing Buy order # 77432623
+NO morder orders that can match ....
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+Adding Sell order # 77432639
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432639 : 40 @ 1.2
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432656,"side":"sell","price":1.47,"quantity":134,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432639 : 40 @ 1.2
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+Adding Sell order # 77432656
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 4
+Asks
+77432639 : 40 @ 1.2
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432673,"side":"sell","price":1.12,"quantity":193,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 4
+Asks
+77432639 : 40 @ 1.2
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+Adding Sell order # 77432673
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 12  Bids = 4
+Asks
+77432673 : 193 @ 1.12
+77432639 : 40 @ 1.2
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432694,"side":"sell","price":1.79,"quantity":125,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 12  Bids = 4
+Asks
+77432673 : 193 @ 1.12
+77432639 : 40 @ 1.2
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+Adding Sell order # 77432694
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 13  Bids = 4
+Asks
+77432673 : 193 @ 1.12
+77432639 : 40 @ 1.2
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432715,"side":"buy","price":1.34,"quantity":92,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 13  Bids = 4
+Asks
+77432673 : 193 @ 1.12
+77432639 : 40 @ 1.2
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 92  and Price= 1.34
+Found  13  sell orders
+checking sell order of qty= 193 @ 1.12
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 13  Bids = 4
+Asks
+77432673 : 193 @ 1.12
+77432639 : 40 @ 1.2
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 13  Bids = 4
+Asks
+77432673 : 193 @ 1.12
+77432639 : 40 @ 1.2
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 13  Bids = 4
+Asks
+77432673 : 101 @ 1.12
+77432639 : 40 @ 1.2
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432732,"side":"buy","price":1.42,"quantity":149,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 13  Bids = 4
+Asks
+77432673 : 101 @ 1.12
+77432639 : 40 @ 1.2
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 149  and Price= 1.42
+Found  13  sell orders
+checking sell order of qty= 101 @ 1.12
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432673
+checking sell order of qty= 40 @ 1.2
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432639
+checking sell order of qty= 134 @ 1.47
+sell order cant match since it has a higher price
+Adding the new order to book buy 8 ,@ 1.42
+Adding buy order # 77432732
+Adding buy order # 77432732
+Adding buy order # 77432732
+Adding buy order # 77432732
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 5
+Asks
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432732 : 8 @ 1.42
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432750,"side":"sell","price":1.05,"quantity":193,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 5
+Asks
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432732 : 8 @ 1.42
+77431998 : 158 @ 1.05
+77432455 : 91 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Removing Buy order # 77432732
+Removing Buy order # 77431998
+Comming sell order is fully Matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 3
+Asks
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Order MAtched
+Sell order remaining quantity  0
+0
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 3
+Asks
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432761,"side":"buy","price":1.92,"quantity":146,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 3
+Asks
+77432656 : 134 @ 1.47
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 146  and Price= 1.92
+Found  11  sell orders
+checking sell order of qty= 134 @ 1.47
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432656
+checking sell order of qty= 73 @ 1.56
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 3
+Asks
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 3
+Asks
+77432468 : 73 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 3
+Asks
+77432468 : 61 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432780,"side":"buy","price":1.17,"quantity":67,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 3
+Asks
+77432468 : 61 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 67  and Price= 1.17
+Found  10  sell orders
+checking sell order of qty= 61 @ 1.56
+sell order cant match since it has a higher price
+Adding the new order to book buy 67 ,@ 1.17
+Adding buy order # 77432780
+Adding buy order # 77432780
+Adding buy order # 77432780
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432468 : 61 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432794,"side":"buy","price":1.94,"quantity":17,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432468 : 61 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 17  and Price= 1.94
+Found  10  sell orders
+checking sell order of qty= 61 @ 1.56
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432468 : 61 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432468 : 61 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432468 : 44 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432813,"side":"buy","price":1.74,"quantity":112,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432468 : 44 @ 1.56
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 112  and Price= 1.74
+Found  10  sell orders
+checking sell order of qty= 44 @ 1.56
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432468
+checking sell order of qty= 113 @ 1.56
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77432577 : 113 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77432577 : 45 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432829,"side":"sell","price":1.22,"quantity":16,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77432577 : 45 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+Adding Sell order # 77432829
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432829 : 16 @ 1.22
+77432577 : 45 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432843,"side":"buy","price":1.90,"quantity":94,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432829 : 16 @ 1.22
+77432577 : 45 @ 1.56
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 94  and Price= 1.9
+Found  10  sell orders
+checking sell order of qty= 16 @ 1.22
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432829
+checking sell order of qty= 45 @ 1.56
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432577
+checking sell order of qty= 93 @ 1.59
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77432230 : 93 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77432230 : 60 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432856,"side":"sell","price":1.67,"quantity":193,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 8  Bids = 4
+Asks
+77432230 : 60 @ 1.59
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432856
+Adding Sell order # 77432856
+Adding Sell order # 77432856
+Adding Sell order # 77432856
+Adding Sell order # 77432856
+Adding Sell order # 77432856
+Adding Sell order # 77432856
+Adding Sell order # 77432856
+Adding Sell order # 77432856
+Adding Sell order # 77432856
+Adding Sell order # 77432856
+Adding Sell order # 77432856
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77432230 : 60 @ 1.59
+77432856 : 193 @ 1.67
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432871,"side":"sell","price":1.73,"quantity":53,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 9  Bids = 4
+Asks
+77432230 : 60 @ 1.59
+77432856 : 193 @ 1.67
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+Adding Sell order # 77432871
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432230 : 60 @ 1.59
+77432856 : 193 @ 1.67
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432891,"side":"sell","price":1.72,"quantity":83,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 4
+Asks
+77432230 : 60 @ 1.59
+77432856 : 193 @ 1.67
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+NO morder orders that can match ....
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+Adding Sell order # 77432891
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 4
+Asks
+77432230 : 60 @ 1.59
+77432856 : 193 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432906,"side":"buy","price":1.56,"quantity":178,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 4
+Asks
+77432230 : 60 @ 1.59
+77432856 : 193 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 178  and Price= 1.56
+Found  11  sell orders
+checking sell order of qty= 60 @ 1.59
+sell order cant match since it has a higher price
+Adding the new order to book buy 178 ,@ 1.56
+Adding buy order # 77432906
+Adding buy order # 77432906
+Adding buy order # 77432906
+Adding buy order # 77432906
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 5
+Asks
+77432230 : 60 @ 1.59
+77432856 : 193 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432924,"side":"buy","price":1.91,"quantity":90,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 5
+Asks
+77432230 : 60 @ 1.59
+77432856 : 193 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 90  and Price= 1.91
+Found  11  sell orders
+checking sell order of qty= 60 @ 1.59
+Removing sell order from the book siince it is fully matched
+Removing Sell order # 77432230
+checking sell order of qty= 193 @ 1.67
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 5
+Asks
+77432856 : 193 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 5
+Asks
+77432856 : 193 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 5
+Asks
+77432856 : 163 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432938,"side":"buy","price":1.34,"quantity":49,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 5
+Asks
+77432856 : 163 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 49  and Price= 1.34
+Found  10  sell orders
+checking sell order of qty= 163 @ 1.67
+sell order cant match since it has a higher price
+Adding the new order to book buy 49 ,@ 1.34
+Adding buy order # 77432938
+Adding buy order # 77432938
+Adding buy order # 77432938
+Adding buy order # 77432938
+Adding buy order # 77432938
+Adding buy order # 77432938
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 6
+Asks
+77432856 : 163 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432938 : 49 @ 1.34
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432949,"side":"buy","price":1.98,"quantity":18,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 6
+Asks
+77432856 : 163 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432938 : 49 @ 1.34
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 18  and Price= 1.98
+Found  10  sell orders
+checking sell order of qty= 163 @ 1.67
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 6
+Asks
+77432856 : 163 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432938 : 49 @ 1.34
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 6
+Asks
+77432856 : 163 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432938 : 49 @ 1.34
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+New buy order fully matched, and sellordr is patially or fully matched
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 6
+Asks
+77432856 : 145 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432938 : 49 @ 1.34
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432968,"side":"buy","price":1.28,"quantity":199,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 6
+Asks
+77432856 : 145 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432938 : 49 @ 1.34
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 199  and Price= 1.28
+Found  10  sell orders
+checking sell order of qty= 145 @ 1.67
+sell order cant match since it has a higher price
+Adding the new order to book buy 199 ,@ 1.28
+Adding buy order # 77432968
+Adding buy order # 77432968
+Adding buy order # 77432968
+Adding buy order # 77432968
+Adding buy order # 77432968
+Adding buy order # 77432968
+Adding buy order # 77432968
+Adding buy order # 77432968
+Adding buy order # 77432968
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 7
+Asks
+77432856 : 145 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432938 : 49 @ 1.34
+77432968 : 199 @ 1.28
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77432980,"side":"sell","price":1.47,"quantity":191,"timestamp":1673638232}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 10  Bids = 7
+Asks
+77432856 : 145 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432906 : 178 @ 1.56
+77432938 : 49 @ 1.34
+77432968 : 199 @ 1.28
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process Sell order
+Removing Buy order # 77432906
+NO morder orders that can match ....
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+Adding Sell order # 77432980
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 6
+Asks
+77432980 : 13 @ 1.47
+77432856 : 145 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432938 : 49 @ 1.34
+77432968 : 199 @ 1.28
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77433004,"side":"buy","price":1.33,"quantity":134,"timestamp":1673638233}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 6
+Asks
+77432980 : 13 @ 1.47
+77432856 : 145 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432938 : 49 @ 1.34
+77432968 : 199 @ 1.28
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 134  and Price= 1.33
+Found  11  sell orders
+checking sell order of qty= 13 @ 1.47
+sell order cant match since it has a higher price
+Adding the new order to book buy 134 ,@ 1.33
+Adding buy order # 77433004
+Adding buy order # 77433004
+Adding buy order # 77433004
+Adding buy order # 77433004
+Adding buy order # 77433004
+Adding buy order # 77433004
+Adding buy order # 77433004
+Adding buy order # 77433004
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 7
+Asks
+77432980 : 13 @ 1.47
+77432856 : 145 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432938 : 49 @ 1.34
+77433004 : 134 @ 1.33
+77432968 : 199 @ 1.28
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+_________GOT-- {"Seccode":"EGS922W1C016","id":77433035,"side":"buy","price":1.43,"quantity":94,"timestamp":1673638233}
+Order book of EGS922W1C016
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 7
+Asks
+77432980 : 13 @ 1.47
+77432856 : 145 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77432938 : 49 @ 1.34
+77433004 : 134 @ 1.33
+77432968 : 199 @ 1.28
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------
+Process buy order
+Processing LIMIT BUY ORDER of quantity= 94  and Price= 1.43
+Found  11  sell orders
+checking sell order of qty= 13 @ 1.47
+sell order cant match since it has a higher price
+Adding the new order to book buy 94 ,@ 1.43
+Adding buy order # 77433035
+Adding buy order # 77433035
+Adding buy order # 77433035
+Adding buy order # 77433035
+Adding buy order # 77433035
+Adding buy order # 77433035
+Adding buy order # 77433035
+Adding buy order # 77433035
+Adding buy order # 77433035
+---------------- EGS922W1C016 Order Book----------------------
+Asks = 11  Bids = 8
+Asks
+77432980 : 13 @ 1.47
+77432856 : 145 @ 1.67
+77432891 : 83 @ 1.72
+77432871 : 53 @ 1.73
+77431458 : 39 @ 1.78
+77432694 : 125 @ 1.79
+77432325 : 142 @ 1.84
+77431373 : 50 @ 1.9
+77431292 : 176 @ 1.96
+77431545 : 106 @ 1.98
+77431837 : 162 @ 1.98
+
+Bids
+77433035 : 94 @ 1.43
+77432938 : 49 @ 1.34
+77433004 : 134 @ 1.33
+77432968 : 199 @ 1.28
+77432780 : 67 @ 1.17
+77432455 : 64 @ 1.05
+77431616 : 95 @ 1.02
+77431421 : 185 @ 1.01
+--------------------------------------

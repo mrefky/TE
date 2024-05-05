@@ -1,0 +1,138 @@
+Staring to Update Mysql
+Connecting to MySQL Success!
+update orders set Quantity=Quantity-84,Matched_Quantity= Matched_Quantity+84 where orderid=34870760 or orderid=34871802
+insert into trades set MakerID='34870760',TakerID='34871802',Price='1.690000',Quantity='84',timestamp='1672990871',tradeid='0'
+update orders set Quantity=Quantity-31,Matched_Quantity= Matched_Quantity+31 where orderid=34870760 or orderid=34871817
+insert into trades set MakerID='34870760',TakerID='34871817',Price='1.690000',Quantity='31',timestamp='1672990871',tradeid='1'
+update orders set Quantity=Quantity-66,Matched_Quantity= Matched_Quantity+66 where orderid=34871833 or orderid=34871947
+insert into trades set MakerID='34871833',TakerID='34871947',Price='1.680000',Quantity='66',timestamp='1672990871',tradeid='2'
+update orders set Quantity=Quantity-16,Matched_Quantity= Matched_Quantity+16 where orderid=34870760 or orderid=34871947
+insert into trades set MakerID='34870760',TakerID='34871947',Price='1.690000',Quantity='16',timestamp='1672990871',tradeid='3'
+update orders set Quantity=Quantity-104,Matched_Quantity= Matched_Quantity+104 where orderid=34871779 or orderid=34871947
+insert into trades set MakerID='34871779',TakerID='34871947',Price='1.790000',Quantity='104',timestamp='1672990871',tradeid='4'
+update orders set Quantity=Quantity-74,Matched_Quantity= Matched_Quantity+74 where orderid=34871779 or orderid=34871982
+insert into trades set MakerID='34871779',TakerID='34871982',Price='1.790000',Quantity='74',timestamp='1672990871',tradeid='5'
+update orders set Quantity=Quantity-114,Matched_Quantity= Matched_Quantity+114 where orderid=7928 or orderid=34871982
+insert into trades set MakerID='7928',TakerID='34871982',Price='10000.000000',Quantity='114',timestamp='1672990871',tradeid='6'
+update orders set Quantity=Quantity-147,Matched_Quantity= Matched_Quantity+147 where orderid=7928 or orderid=34872010
+insert into trades set MakerID='7928',TakerID='34872010',Price='10000.000000',Quantity='147',timestamp='1672990872',tradeid='7'
+update orders set Quantity=Quantity-41,Matched_Quantity= Matched_Quantity+41 where orderid=34872023 or orderid=34872042
+insert into trades set MakerID='34872023',TakerID='34872042',Price='1.270000',Quantity='41',timestamp='1672990872',tradeid='8'
+update orders set Quantity=Quantity-76,Matched_Quantity= Matched_Quantity+76 where orderid=7928 or orderid=34872042
+insert into trades set MakerID='7928',TakerID='34872042',Price='10000.000000',Quantity='76',timestamp='1672990872',tradeid='9'
+update orders set Quantity=Quantity-189,Matched_Quantity= Matched_Quantity+189 where orderid=7928 or orderid=34872058
+insert into trades set MakerID='7928',TakerID='34872058',Price='10000.000000',Quantity='189',timestamp='1672990872',tradeid='10'
+update orders set Quantity=Quantity-164,Matched_Quantity= Matched_Quantity+164 where orderid=7928 or orderid=34872089
+insert into trades set MakerID='7928',TakerID='34872089',Price='10000.000000',Quantity='164',timestamp='1672990872',tradeid='11'
+update orders set Quantity=Quantity-48,Matched_Quantity= Matched_Quantity+48 where orderid=34871957 or orderid=34872263
+insert into trades set MakerID='34871957',TakerID='34872263',Price='1.820000',Quantity='48',timestamp='1672990872',tradeid='12'
+update orders set Quantity=Quantity-50,Matched_Quantity= Matched_Quantity+50 where orderid=34872101 or orderid=34872357
+insert into trades set MakerID='34872101',TakerID='34872357',Price='1.130000',Quantity='50',timestamp='1672990872',tradeid='13'
+update orders set Quantity=Quantity-118,Matched_Quantity= Matched_Quantity+118 where orderid=34872163 or orderid=34872357
+insert into trades set MakerID='34872163',TakerID='34872357',Price='1.200000',Quantity='118',timestamp='1672990872',tradeid='14'
+update orders set Quantity=Quantity-20,Matched_Quantity= Matched_Quantity+20 where orderid=34872163 or orderid=34872388
+insert into trades set MakerID='34872163',TakerID='34872388',Price='1.200000',Quantity='20',timestamp='1672990872',tradeid='15'
+update orders set Quantity=Quantity-50,Matched_Quantity= Matched_Quantity+50 where orderid=34872342 or orderid=34872388
+insert into trades set MakerID='34872342',TakerID='34872388',Price='1.310000',Quantity='50',timestamp='1672990872',tradeid='16'
+update orders set Quantity=Quantity-20,Matched_Quantity= Matched_Quantity+20 where orderid=34872180 or orderid=34872388
+insert into trades set MakerID='34872180',TakerID='34872388',Price='1.370000',Quantity='20',timestamp='1672990872',tradeid='17'
+update orders set Quantity=Quantity-10,Matched_Quantity= Matched_Quantity+10 where orderid=34872121 or orderid=34872388
+insert into trades set MakerID='34872121',TakerID='34872388',Price='1.410000',Quantity='10',timestamp='1672990872',tradeid='18'
+update orders set Quantity=Quantity-61,Matched_Quantity= Matched_Quantity+61 where orderid=34872121 or orderid=34872403
+insert into trades set MakerID='34872121',TakerID='34872403',Price='1.410000',Quantity='61',timestamp='1672990872',tradeid='19'
+update orders set Quantity=Quantity-27,Matched_Quantity= Matched_Quantity+27 where orderid=34872155 or orderid=34872403
+insert into trades set MakerID='34872155',TakerID='34872403',Price='1.460000',Quantity='27',timestamp='1672990872',tradeid='20'
+update orders set Quantity=Quantity-102,Matched_Quantity= Matched_Quantity+102 where orderid=34872196 or orderid=34872403
+insert into trades set MakerID='34872196',TakerID='34872403',Price='1.460000',Quantity='102',timestamp='1672990872',tradeid='21'
+update orders set Quantity=Quantity-91,Matched_Quantity= Matched_Quantity+91 where orderid=34872196 or orderid=34872439
+insert into trades set MakerID='34872196',TakerID='34872439',Price='1.460000',Quantity='91',timestamp='1672990872',tradeid='22'
+update orders set Quantity=Quantity-37,Matched_Quantity= Matched_Quantity+37 where orderid=34872294 or orderid=34872439
+insert into trades set MakerID='34872294',TakerID='34872439',Price='1.580000',Quantity='37',timestamp='1672990872',tradeid='23'
+update orders set Quantity=Quantity-39,Matched_Quantity= Matched_Quantity+39 where orderid=34872294 or orderid=34872455
+insert into trades set MakerID='34872294',TakerID='34872455',Price='1.580000',Quantity='39',timestamp='1672990872',tradeid='24'
+update orders set Quantity=Quantity-46,Matched_Quantity= Matched_Quantity+46 where orderid=34871957 or orderid=34872472
+insert into trades set MakerID='34871957',TakerID='34872472',Price='1.820000',Quantity='46',timestamp='1672990872',tradeid='25'
+update orders set Quantity=Quantity-94,Matched_Quantity= Matched_Quantity+94 where orderid=34872294 or orderid=34872502
+insert into trades set MakerID='34872294',TakerID='34872502',Price='1.580000',Quantity='94',timestamp='1672990872',tradeid='26'
+update orders set Quantity=Quantity-50,Matched_Quantity= Matched_Quantity+50 where orderid=34872490 or orderid=34872502
+insert into trades set MakerID='34872490',TakerID='34872502',Price='1.590000',Quantity='50',timestamp='1672990872',tradeid='27'
+update orders set Quantity=Quantity-22,Matched_Quantity= Matched_Quantity+22 where orderid=34871957 or orderid=34872572
+insert into trades set MakerID='34871957',TakerID='34872572',Price='1.820000',Quantity='22',timestamp='1672990872',tradeid='28'
+update orders set Quantity=Quantity-33,Matched_Quantity= Matched_Quantity+33 where orderid=34872234 or orderid=34872572
+insert into trades set MakerID='34872234',TakerID='34872572',Price='1.780000',Quantity='33',timestamp='1672990872',tradeid='29'
+update orders set Quantity=Quantity-70,Matched_Quantity= Matched_Quantity+70 where orderid=34872324 or orderid=34872572
+insert into trades set MakerID='34872324',TakerID='34872572',Price='1.530000',Quantity='70',timestamp='1672990872',tradeid='30'
+update orders set Quantity=Quantity-15,Matched_Quantity= Matched_Quantity+15 where orderid=34872324 or orderid=34872600
+insert into trades set MakerID='34872324',TakerID='34872600',Price='1.530000',Quantity='15',timestamp='1672990872',tradeid='31'
+update orders set Quantity=Quantity-21,Matched_Quantity= Matched_Quantity+21 where orderid=34872730 or orderid=34872837
+insert into trades set MakerID='34872730',TakerID='34872837',Price='1.760000',Quantity='21',timestamp='1672990872',tradeid='32'
+update orders set Quantity=Quantity-25,Matched_Quantity= Matched_Quantity+25 where orderid=34872709 or orderid=34872985
+insert into trades set MakerID='34872709',TakerID='34872985',Price='1.100000',Quantity='25',timestamp='1672990872',tradeid='33'
+update orders set Quantity=Quantity-84,Matched_Quantity= Matched_Quantity+84 where orderid=34872709 or orderid=34872998
+insert into trades set MakerID='34872709',TakerID='34872998',Price='1.100000',Quantity='84',timestamp='1672990872',tradeid='34'
+update orders set Quantity=Quantity-36,Matched_Quantity= Matched_Quantity+36 where orderid=34872785 or orderid=34872998
+insert into trades set MakerID='34872785',TakerID='34872998',Price='1.130000',Quantity='36',timestamp='1672990872',tradeid='35'
+update orders set Quantity=Quantity-33,Matched_Quantity= Matched_Quantity+33 where orderid=34873204 or orderid=34873249
+insert into trades set MakerID='34873204',TakerID='34873249',Price='1.130000',Quantity='33',timestamp='1672990873',tradeid='36'
+update orders set Quantity=Quantity-100,Matched_Quantity= Matched_Quantity+100 where orderid=34872785 or orderid=34873249
+insert into trades set MakerID='34872785',TakerID='34873249',Price='1.130000',Quantity='100',timestamp='1672990873',tradeid='37'
+update orders set Quantity=Quantity-115,Matched_Quantity= Matched_Quantity+115 where orderid=34873368 or orderid=34873671
+insert into trades set MakerID='34873368',TakerID='34873671',Price='1.040000',Quantity='115',timestamp='1672990873',tradeid='38'
+update orders set Quantity=Quantity-7,Matched_Quantity= Matched_Quantity+7 where orderid=34873418 or orderid=34873671
+insert into trades set MakerID='34873418',TakerID='34873671',Price='1.050000',Quantity='7',timestamp='1672990873',tradeid='39'
+update orders set Quantity=Quantity-53,Matched_Quantity= Matched_Quantity+53 where orderid=34873078 or orderid=34873860
+insert into trades set MakerID='34873078',TakerID='34873860',Price='1.950000',Quantity='53',timestamp='1672990873',tradeid='40'
+update orders set Quantity=Quantity-50,Matched_Quantity= Matched_Quantity+50 where orderid=34873768 or orderid=34873860
+insert into trades set MakerID='34873768',TakerID='34873860',Price='1.940000',Quantity='50',timestamp='1672990873',tradeid='41'
+update orders set Quantity=Quantity-66,Matched_Quantity= Matched_Quantity+66 where orderid=34873768 or orderid=34873988
+insert into trades set MakerID='34873768',TakerID='34873988',Price='1.940000',Quantity='66',timestamp='1672990873',tradeid='42'
+update orders set Quantity=Quantity-63,Matched_Quantity= Matched_Quantity+63 where orderid=34873768 or orderid=34874229
+insert into trades set MakerID='34873768',TakerID='34874229',Price='1.940000',Quantity='63',timestamp='1672990874',tradeid='43'
+update orders set Quantity=Quantity-132,Matched_Quantity= Matched_Quantity+132 where orderid=34872910 or orderid=34874229
+insert into trades set MakerID='34872910',TakerID='34874229',Price='1.920000',Quantity='132',timestamp='1672990874',tradeid='44'
+update orders set Quantity=Quantity-63,Matched_Quantity= Matched_Quantity+63 where orderid=34872910 or orderid=34874279
+insert into trades set MakerID='34872910',TakerID='34874279',Price='1.920000',Quantity='63',timestamp='1672990874',tradeid='45'
+update orders set Quantity=Quantity-50,Matched_Quantity= Matched_Quantity+50 where orderid=34874084 or orderid=34874279
+insert into trades set MakerID='34874084',TakerID='34874279',Price='1.910000',Quantity='50',timestamp='1672990874',tradeid='46'
+update orders set Quantity=Quantity-84,Matched_Quantity= Matched_Quantity+84 where orderid=34874084 or orderid=34874293
+insert into trades set MakerID='34874084',TakerID='34874293',Price='1.910000',Quantity='84',timestamp='1672990874',tradeid='47'
+update orders set Quantity=Quantity-100,Matched_Quantity= Matched_Quantity+100 where orderid=34873310 or orderid=34874293
+insert into trades set MakerID='34873310',TakerID='34874293',Price='1.860000',Quantity='100',timestamp='1672990874',tradeid='48'
+update orders set Quantity=Quantity-17,Matched_Quantity= Matched_Quantity+17 where orderid=34873418 or orderid=34874375
+insert into trades set MakerID='34873418',TakerID='34874375',Price='1.050000',Quantity='17',timestamp='1672990874',tradeid='49'
+update orders set Quantity=Quantity-17,Matched_Quantity= Matched_Quantity+17 where orderid=34873310 or orderid=34874550
+insert into trades set MakerID='34873310',TakerID='34874550',Price='1.860000',Quantity='17',timestamp='1672990874',tradeid='50'
+update orders set Quantity=Quantity-48,Matched_Quantity= Matched_Quantity+48 where orderid=34873310 or orderid=34874616
+insert into trades set MakerID='34873310',TakerID='34874616',Price='1.860000',Quantity='48',timestamp='1672990874',tradeid='51'
+update orders set Quantity=Quantity-118,Matched_Quantity= Matched_Quantity+118 where orderid=34874165 or orderid=34874616
+insert into trades set MakerID='34874165',TakerID='34874616',Price='1.840000',Quantity='118',timestamp='1672990874',tradeid='52'
+update orders set Quantity=Quantity-29,Matched_Quantity= Matched_Quantity+29 where orderid=34873174 or orderid=34874616
+insert into trades set MakerID='34873174',TakerID='34874616',Price='1.820000',Quantity='29',timestamp='1672990874',tradeid='53'
+update orders set Quantity=Quantity-33,Matched_Quantity= Matched_Quantity+33 where orderid=34873174 or orderid=34874745
+insert into trades set MakerID='34873174',TakerID='34874745',Price='1.820000',Quantity='33',timestamp='1672990874',tradeid='54'
+update orders set Quantity=Quantity-123,Matched_Quantity= Matched_Quantity+123 where orderid=34875102 or orderid=34875592
+insert into trades set MakerID='34875102',TakerID='34875592',Price='1.020000',Quantity='123',timestamp='1672990875',tradeid='55'
+update orders set Quantity=Quantity-21,Matched_Quantity= Matched_Quantity+21 where orderid=34875916 or orderid=34876162
+insert into trades set MakerID='34875916',TakerID='34876162',Price='2.000000',Quantity='21',timestamp='1672990876',tradeid='56'
+update orders set Quantity=Quantity-109,Matched_Quantity= Matched_Quantity+109 where orderid=34875916 or orderid=34877441
+insert into trades set MakerID='34875916',TakerID='34877441',Price='2.000000',Quantity='109',timestamp='1672990877',tradeid='57'
+update orders set Quantity=Quantity-16,Matched_Quantity= Matched_Quantity+16 where orderid=34876070 or orderid=34880943
+insert into trades set MakerID='34876070',TakerID='34880943',Price='1.000000',Quantity='16',timestamp='1672990880',tradeid='58'
+update orders set Quantity=Quantity-36,Matched_Quantity= Matched_Quantity+36 where orderid=34876594 or orderid=34880943
+insert into trades set MakerID='34876594',TakerID='34880943',Price='1.000000',Quantity='36',timestamp='1672990880',tradeid='59'
+update orders set Quantity=Quantity-4,Matched_Quantity= Matched_Quantity+4 where orderid=34875927 or orderid=34880943
+insert into trades set MakerID='34875927',TakerID='34880943',Price='1.020000',Quantity='4',timestamp='1672990880',tradeid='60'
+update orders set Quantity=Quantity-151,Matched_Quantity= Matched_Quantity+151 where orderid=34882366 or orderid=34883194
+insert into trades set MakerID='34882366',TakerID='34883194',Price='1.010000',Quantity='151',timestamp='1672990883',tradeid='61'
+update orders set Quantity=Quantity-45,Matched_Quantity= Matched_Quantity+45 where orderid=34874694 or orderid=34883194
+insert into trades set MakerID='34874694',TakerID='34883194',Price='1.020000',Quantity='45',timestamp='1672990883',tradeid='62'
+update orders set Quantity=Quantity-45,Matched_Quantity= Matched_Quantity+45 where orderid=34875916 or orderid=34887966
+insert into trades set MakerID='34875916',TakerID='34887966',Price='2.000000',Quantity='45',timestamp='1672990887',tradeid='63'
+update orders set Quantity=Quantity-46,Matched_Quantity= Matched_Quantity+46 where orderid=34875876 or orderid=34887966
+insert into trades set MakerID='34875876',TakerID='34887966',Price='1.990000',Quantity='46',timestamp='1672990887',tradeid='64'
+update orders set Quantity=Quantity-90,Matched_Quantity= Matched_Quantity+90 where orderid=34875876 or orderid=34889025
+insert into trades set MakerID='34875876',TakerID='34889025',Price='1.990000',Quantity='90',timestamp='1672990889',tradeid='65'
+update orders set Quantity=Quantity-38,Matched_Quantity= Matched_Quantity+38 where orderid=34884379 or orderid=34889830
+insert into trades set MakerID='34884379',TakerID='34889830',Price='1.000000',Quantity='38',timestamp='1672990889',tradeid='66'
+update orders set Quantity=Quantity-12,Matched_Quantity= Matched_Quantity+12 where orderid=34943609 or orderid=34944325
+insert into trades set MakerID='34943609',TakerID='34944325',Price='1.980000',Quantity='12',timestamp='1672990944',tradeid='67'

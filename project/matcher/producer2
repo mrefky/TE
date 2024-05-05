@@ -1,0 +1,25 @@
+package main
+import (
+	"github.com/Shopify/sarama"
+	//	cluster "github.com/bsm/sarama-cluster"
+	"log"
+	"fmt"
+
+)
+func createProducer2() sarama.AsyncProducer {
+	config := sarama.NewConfig()
+	config.Producer2.Return.Successes = false         // fire and forget
+	config.Producer2.Return.Errors = true             // notify on failed
+	config.Producer2.RequiredAcks = sarama.WaitForAll // waits for all insync replicas to commit
+
+	producer2, err := sarama.NewAsyncProducer([]string{Kafka}, config)
+
+	if err != nil {
+		log.Fatal("Unable to connect producer to kafka server")
+	}
+	fmt.Println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
+log.Printf("Connected to Kafka to publish validated orders")
+fmt.Println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
+	return producer2
+
+}

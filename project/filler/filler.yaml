@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: filler
+spec:
+  podManagementPolicy: "Parallel"      
+  selector:
+    matchLabels:
+      app: filler
+  serviceName: filler
+  replicas: 1 
+  template:
+    metadata:
+      labels:
+        app: filler
+    spec:
+      containers:
+        - name: filler
+          image: localhost:32000/filler
+          command:  ["/bin/bash", "-c","--", "/start.sh"]
+          volumeMounts:
+            - mountPath: "/myfixlogs"
+              name: www
+            - mountPath: /myetc
+              name: filler-config
+      volumes:
+        - name: filler-config
+          configMap:
+            name: filler-config
+  volumeClaimTemplates:
+  - metadata:
+      name: www
+    spec:
+      storageClassName: microk8s-hostpath #nfs-csi
+      #microk8s-hostpath
+      accessModes: [ "ReadWriteOnce" ]
+      resources:
+        requests:
+          storage: 10Gi

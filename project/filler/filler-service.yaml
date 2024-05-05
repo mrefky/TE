@@ -1,0 +1,64 @@
+# Headless service for stable DNS entries of StatefulSet members.
+
+apiVersion: v1
+
+kind: Service
+
+metadata:
+
+  name: filler
+
+  labels:
+
+    app: filler
+
+    app.kubernetes.io/name: filler
+
+spec:
+
+  ports:
+
+  - name: filler
+
+    port: 5001
+
+  clusterIP: None
+
+  selector:
+
+    app: filler
+
+---
+
+# Client service for connecting to any MySQL instance for reads.
+
+# For writes, you must instead connect to the primary: filler-0.mysql.
+
+apiVersion: v1
+
+kind: Service
+
+metadata:
+
+  name: filler-read
+
+  labels:
+
+    app: filler
+
+    app.kubernetes.io/name: filler
+
+    readonly: "true"
+
+spec:
+
+  ports:
+
+  - name: filler
+
+    port: 5001
+
+  selector:
+
+    app: filler
+

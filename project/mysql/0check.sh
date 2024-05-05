@@ -1,0 +1,1 @@
+microk8s  kubectl exec -it mysql-0 -- bash -ic "while sleep 1; do mysql -h mysql-0 -e 'SELECT (SELECT @@server_id )as Server ,(     SELECT COUNT(*)     FROM   test.orders ) AS orders, ( select count(*) from test.trades) As trades'; done"
